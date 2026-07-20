@@ -104,15 +104,6 @@ Designing and building an **AI-assisted threat report** feature for [OWASP Threa
 
 ---
 
-### 📊 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kbcasurf&show_icons=true&hide_border=true&count_private=true&title_color=0A66C2&icon_color=0A66C2" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kbcasurf&layout=compact&hide_border=true&title_color=0A66C2" alt="Top languages">
-</p>
-
----
-
 <p align="center">
   <em>“Security by design — far beyond automated testing.”</em>
 </p>
