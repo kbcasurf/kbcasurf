@@ -88,6 +88,12 @@ I design and run **Application Security and DevSecOps programs** that let teams 
 **🐉 OWASP Threat Dragon — AI Threat Report** &nbsp;·&nbsp; *contribution in progress*
 Designing and building an **AI-assisted threat report** feature for [OWASP Threat Dragon](https://github.com/OWASP/threat-dragon): one-click STRIDE analysis of a diagram (image + structured model) via an operator-configured LLM. Built **secure by construction** — the API key is proxied server-side and never reaches the browser, payloads are bounded against DoS, endpoints are `https`-only, and no secrets or model contents are ever logged.
 
+**🧮 SAMMwise-AI — Gap Analysis AI Report** &nbsp;·&nbsp; *open-source fork, active*
+Maintaining [kbcasurf/sammwise-ai](https://github.com/kbcasurf/sammwise-ai), a modernized fork of [OWASP SAMMwise](https://github.com/owaspsamm/sammwise) (upgraded to Next.js 16 / React 19, with saved assessment history and trend comparison) that adds an optional **AI-powered Gap Analysis Report** — a consent-gated, per-report LLM call (OpenAI-compatible or Anthropic) that turns SAMM maturity scores into prioritized remediation guidance. Backed by a full DevSecOps CI/CD pipeline gating every pull request: SAST (CodeQL + Semgrep), DAST (OWASP ZAP Baseline), SCA (`npm audit` + Trivy image scanning), and secret scanning (TruffleHog), all failing the build on HIGH/CRITICAL findings.
+
+**🏆 ChampionForge** &nbsp;·&nbsp; *open-source, active*
+Building [kbcasurf/sec-champs-trail](https://github.com/kbcasurf/sec-champs-trail) (ChampionForge), a tool to build, run, and mature **Security Champions programs** on the OWASP Security Champions Guide's 10-principle Manifesto — deliberately measuring how an organization recruits, trains, and retains its champions, not code security posture (that's SAMMwise-AI's job). Ships per-team maturity assessments with historical snapshots, the official OWASP checklist library, and a rule-based 3/6/12-month action roadmap that prioritizes the weakest principles first, with an AI-assisted training-track and executive-report layer on the roadmap.
+
 **🔎 Where I focus my open-source work**
 - **Secure SDLC pipelines** — reference DevSecOps pipelines (GitHub Actions / GitLab CI) chaining SAST, SCA, secret scanning, IaC scan, DAST and SBOM.
 - **OWASP SAMM tooling** — assessment templates and reporting that turn maturity scores into actionable roadmaps.
